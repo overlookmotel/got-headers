@@ -12,9 +12,38 @@
 
 ## Usage
 
+Function to hit a URL and stop as soon as headers are received i.e. do not fetch the body of the HTTP response.
+
+Useful for example for checking the size of a large file without downloading it. Uses GET HTTP method (or whatever method requested) rather than HEAD as some servers may not support HEAD, or not use cookies with HEAD etc.
+
+Returns a [Bluebird](https://www.npmjs.com/package/bluebird) Promise which resolves to the response object, or rejects with an error.
+
+Uses [got](https://www.npmjs.com/package/got) to make the HTTP request.
+
+### headers(url, [options])
+
+```js
+const headers = require('got-headers');
+
+headers('http://www.google.com').then(function(res) {
+	// Print headers object
+	console.log(res.headers);
+}).catch(function(err) {
+	// Print error
+	console.log('Error!', err);
+
+	// Print response object
+	console.log(err.res);
+});
+```
+
+`options` object is passed directly to [got](https://www.npmjs.com/package/got) - use any of got's options.
+
 ## Tests
 
 Use `npm test` to run the tests. Use `npm run cover` to check coverage.
+
+There are no tests at present but it seems to work fine!
 
 ## Changelog
 
