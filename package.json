@@ -1,6 +1,6 @@
 {
   "name": "got-headers",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hit URL and get HTTP headers only (using got module)",
   "main": "./lib/",
   "author": {
