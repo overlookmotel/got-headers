@@ -8,6 +8,7 @@
 [![Build Status](https://img.shields.io/travis/overlookmotel/got-headers/master.svg)](http://travis-ci.org/overlookmotel/got-headers)
 [![Dependency Status](https://img.shields.io/david/overlookmotel/got-headers.svg)](https://david-dm.org/overlookmotel/got-headers)
 [![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/got-headers.svg)](https://david-dm.org/overlookmotel/got-headers)
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/got-headers.svg)](https://greenkeeper.io/)
 [![Coverage Status](https://img.shields.io/coveralls/overlookmotel/got-headers/master.svg)](https://coveralls.io/r/overlookmotel/got-headers)
 
 ## Usage
