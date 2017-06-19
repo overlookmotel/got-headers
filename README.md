@@ -1,5 +1,7 @@
 # got-headers.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/got-headers.svg)](https://greenkeeper.io/)
+
 # Hit URL and get HTTP headers only (using got module)
 
 ## Current status
