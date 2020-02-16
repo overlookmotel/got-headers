@@ -14,7 +14,7 @@
     "url": "https://github.com/overlookmotel/got-headers/issues"
   },
   "dependencies": {
-    "got": "^7.0.0",
+    "got": "^10.5.7",
     "bluebird": "^3.5.0"
   },
   "devDependencies": {
